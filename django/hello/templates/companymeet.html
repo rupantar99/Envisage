@@ -1,0 +1,123 @@
+{% extends 'base.html' %} {% block body %}
+
+<div class="container px-4 py-5" id="featured-3">
+  <h2 class="pb-2 border-bottom">
+    Easy Steps for Startups to get dream investors!
+  </h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <h2
+        type="button"
+        class="btn btn-lg btn-success"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Register
+      </h2>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Register now..</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Make tried and tested Template</li>
+                <li class="list-group-item">
+                  Make a minimal viable product(if possible)
+                </li>
+                <li class="list-group-item">Create a Pitch deck</li>
+                <li class="list-group-item">Added Customer Reviews</li>
+                <li class="list-group-item">Submit as you are ready!</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Start</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>
+        Create a short pitch,highlight your area of interest in investor and
+        we'll arrange for a meet.
+      </p>
+      <a href="#" class="icon-link d-inline-flex align-items-center">
+        Submit now!
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#chevron-right" />
+        </svg>
+      </a>
+    </div>
+    <div class="feature col">
+      <h2>Window to Investor</h2>
+      <p>
+        Scroll & message investors at your comfort.Have a look at investor's
+        take.Be ready to pitch ..
+      </p>
+      <a href="#" class="icon-link d-inline-flex align-items-center">
+        Connect now!
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#chevron-right" />
+        </svg>
+      </a>
+    </div>
+    <div class="feature col">
+      <h2>WorkShop</h2>
+
+      <p>
+        Get motivated and stay at pace.We'll proactively arrange for your
+        expertise. Educate & be at par!
+      </p>
+      <a href="#" class="icon-link d-inline-flex align-items-center">
+        Know more..
+        <svg class="bi" width="1em" height="1em">
+          <use xlink:href="#chevron-right" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button
+    type="button"
+    class="btn btn-secondary"
+    data-bs-toggle="tooltip"
+    data-bs-placement="top"
+    data-bs-custom-class="custom-tooltip"
+    data-bs-title="Head on About page and know us!"
+  >
+    Our profile
+  </button>
+
+  <button
+    type="button"
+    class="btn btn-secondary"
+    data-bs-toggle="tooltip"
+    data-bs-placement="bottom"
+    data-bs-custom-class="custom-tooltip"
+    data-bs-title="Head on to Sign up page and let's get started!"
+  >
+    Start free trial
+  </button>
+</div>
+
+{% endblock body%}
